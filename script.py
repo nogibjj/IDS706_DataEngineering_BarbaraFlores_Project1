@@ -19,5 +19,8 @@ def hist_plot(path,variable):
 
 
 if __name__ == "__main__":
-    aggregate_statistics('LinkedInTechJobsDataset.csv', ["Total_applicants", "Employee_count", "LinkedIn_Followers"])
+    aggregate_statistics(
+        'LinkedInTechJobsDataset.csv', 
+        ["Total_applicants", "Employee_count", "LinkedIn_Followers"]
+        )
     hist_plot("LinkedInTechJobsDataset.csv", "Total_applicants")
