@@ -6,7 +6,7 @@ IDS706_DataEngineering_BarbaraFlores_Project1
 In this project, we delve into the world of Continuous Integration (CI), harnessing the power of GitHub Actions to streamline and improve the development process of a Python Data Science project. 
 As a learning exercise for various data engineering tools, we will conduct an analysis of a database, including the following files:
 
-- Jupyter Notebook with:
+- Jupyter Notebook [LinkedInTechJobs.ipynb](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/LinkedInTechJobs.ipynb) with:
   - Cells that perform descriptive statistics using Polars or Panda.
   - Tested by using nbval plugin for pytest
 - Python Script performing the same descriptive statistics using Polars or Panda
