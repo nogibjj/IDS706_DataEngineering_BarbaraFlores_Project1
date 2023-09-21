@@ -1,7 +1,7 @@
 [![CI](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/actions/workflows/cicd.yml)
 
 IDS706_DataEngineering_BarbaraFlores_Project1
-## Continuous Integration using GitHub Actions of Python Data Science Project
+## 📊🤖 Continuous Integration using GitHub Actions of Python Data Science Project
 
 In this project, we delve into the world of Continuous Integration (CI), harnessing the power of GitHub Actions to streamline and improve the development process of a Python Data Science project. 
 As a learning exercise for various data engineering tools, we will conduct an analysis of a database, including the following files:
@@ -20,3 +20,8 @@ As a learning exercise for various data engineering tools, we will conduct an an
 - test_lib.py to test library
 - Pinned requirements.txt
 - GitHub Actions performs all four Makefile commands with badges for each one in the README.md
+
+### 🔍 Dataset: 
+For this asigment, we will use the [LinkedIn Tech Jobs dataset](https://www.kaggle.com/datasets/joebeachcapital/linkedin-jobs?resource=download&select=final_data.csv) 
+
+The "LinkedIn Jobs Dataset" is a comprehensive collection of job listings and related information sourced from LinkedIn, one of the world's leading professional networking platforms. This dataset provides valuable insights into job opportunities, job market trends, and various attributes associated with job listings.
