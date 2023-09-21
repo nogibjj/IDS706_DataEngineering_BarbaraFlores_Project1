@@ -17,9 +17,9 @@ As a learning exercise for various data engineering tools, we will conduct an an
   - Formats code with Python black
   - Lints code with Ruff
   - Installs code via:  pip install -r requirements.txt
-- test_script.py to test script
-- test_lib.py to test library
-- Pinned requirements.txt
+- [test_script.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/test_script.py) to test script
+- [test_lib.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/lib.py) to test library
+- Pinned [requirements.txt](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/requirements.txt)
 - GitHub Actions performs all four Makefile commands with badges for each one in the README.md
 
 ### 🔍 Dataset: 
