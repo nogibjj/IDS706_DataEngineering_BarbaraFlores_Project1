@@ -13,7 +13,7 @@ As a learning exercise for various data engineering tools, we will conduct an an
 - Python Script [script.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/script.py) performing the same descriptive statistics using **Pandas**
 - [lib.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/lib.py) file that shares the common code between the script and notebook
 - [Makefile](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/Makefile) with the following:
-  - Run all tests (must test notebook and script and lib)
+  - Run all tests (notebook and script and lib)
   - Formats code with Python black
   - Lints code with Ruff
   - Installs code via:  pip install -r requirements.txt
