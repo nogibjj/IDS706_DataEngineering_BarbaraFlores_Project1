@@ -12,5 +12,9 @@ if __name__ == "__main__":
     owner = "nogibjj"
     repo = "IDS706_DataEngineering_BarbaraFlores_Project1"
     path1 = "Total_applicants.png"
+    path2 = "Employee_count.png"
+    path3 = "LinkedIn_Followers.png"
     check_github_file_existence(owner, repo, path1)
+    check_github_file_existence(owner, repo, path2)
+    check_github_file_existence(owner, repo, path3)
  
