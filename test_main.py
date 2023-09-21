@@ -1,4 +1,5 @@
 import pandas as pd
+import main
 from mylib.calculator import mean_variable, median_variable, count_variable
 
     
