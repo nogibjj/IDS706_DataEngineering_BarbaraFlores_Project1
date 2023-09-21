@@ -1,14 +1,16 @@
-from mylib.calculator import mean_variable, median_variable, count_variable
+from script import aggregate_statistics
+import requests
+
+def check_github_file_existence(owner, repo, path):
+    url = f"https://raw.githubusercontent.com/{owner}/{repo}/main/{path}"
+
+    response = requests.get(url)
+    assert  response.status_code == 200
 
 
-def test_mean():
-    assert mean_variable("data_test.csv", "age") == 32
-
-def test_median():
-    assert median_variable("data_test.csv", "age") == 30
-
-def test_count_variable():
-    assert count_variable("data_test.csv", "age") == 5
-
-
-
+if __name__ == "__main__":
+    owner = "nogibjj"
+    repo = "IDS706_DataEngineering_BarbaraFlores_Project1"
+    path1 = "total_applicants.png"
+    check_github_file_existence(owner, repo, path1)
+ 
