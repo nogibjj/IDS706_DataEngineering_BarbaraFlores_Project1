@@ -1,4 +1,4 @@
-from script import aggregate_statistics
+#from script import aggregate_statistics
 import requests
 
 def check_github_file_existence(owner, repo, path):
