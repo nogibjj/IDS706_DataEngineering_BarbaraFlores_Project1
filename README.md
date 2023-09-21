@@ -5,7 +5,7 @@ IDS706_DataEngineering_BarbaraFlores_Project1
 ## 🤖 Continuous Integration using GitHub Actions of Python Data Science Project
 
 In this project, we delve into the world of Continuous Integration (CI), harnessing the power of GitHub Actions to streamline and improve the development process of a Python Data Science project. 
-As a learning exercise for various data engineering tools, we will conduct an analysis of a database, including the following files:
+As a learning exercise for various data engineering tools, we analyze a database, using the following files:
 
 - Jupyter Notebook [LinkedInTechJobs.ipynb](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/LinkedInTechJobs.ipynb) with:
   - Cells that perform descriptive statistics using **Pandas**.
