@@ -18,9 +18,9 @@ As a learning exercise for various data engineering tools, we analyze a database
   - Lints code with Ruff
   - Installs code via:  pip install -r requirements.txt
 - [test_script.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/test_script.py) to test script
-- [test_lib.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/lib.py) to test library
+- [test_lib.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/test_lib.py) to test library
 - Pinned [requirements.txt](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/requirements.txt)
-- GitHub Actions performs all four Makefile commands with badges for each one in the README.md
+- [GitHub Actions](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/tree/main/.github/workflows) performs all four Makefile commands with badges for each one in the README.md
 
 ### 🔍 Dataset: 
 For this asigment, we will use the [LinkedIn Tech Jobs dataset](https://www.kaggle.com/datasets/joebeachcapital/linkedin-jobs?resource=download&select=final_data.csv) 
