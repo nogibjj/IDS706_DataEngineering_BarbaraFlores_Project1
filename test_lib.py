@@ -9,3 +9,9 @@ def test_median():
 
 def test_count_variable():
     assert count_variable("data_test.csv", "age") == 5
+
+
+if __name__ == "__main__":
+    test_mean()
+    test_median()
+    test_count_variable()
