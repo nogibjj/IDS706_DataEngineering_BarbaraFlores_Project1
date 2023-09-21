@@ -15,4 +15,5 @@ matplotlib==3.5.3
 requests==2.31.0
 nbval==0.10.0
 nbqa==1.7.0
+ruff==0.0.290
 
