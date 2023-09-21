@@ -1,8 +1,5 @@
-import pandas as pd
 from mylib.calculator import mean_variable, median_variable, count_variable
 
-    
-#if __name__ == "__main__":
 
 def test_mean():
     assert mean_variable("data_test.csv", "age") == 32
