@@ -1,12 +1,13 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from mylib.calculator import mean_variable, median_variable, count_variable
+from lib import mean_variable, median_variable, count_variable
 
 def aggregate_statistics(path, variable_list):
+    print(" \nSome descriptive statistics: \n")
     for i in variable_list:
         print(f"The mean of variable {i} is {round(mean_variable(path, i))}.")
         print(f"The median of variable {i} is {round(median_variable(path, i))}.")
-        print(f"The count of variable {i} is {round(count_variable(path, i))}.")
+        print(f"The count of variable {i} is {round(count_variable(path, i))}.\n")
 
 def hist_plot(path,variable):
     df = pd.read_csv(path) 

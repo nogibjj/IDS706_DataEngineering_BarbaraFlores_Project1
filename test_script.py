@@ -11,6 +11,6 @@ def check_github_file_existence(owner, repo, path):
 if __name__ == "__main__":
     owner = "nogibjj"
     repo = "IDS706_DataEngineering_BarbaraFlores_Project1"
-    path1 = "total_applicants.png"
+    path1 = "Total_applicants.png"
     check_github_file_existence(owner, repo, path1)
  

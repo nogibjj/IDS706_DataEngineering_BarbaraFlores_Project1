@@ -1,4 +1,4 @@
-from mylib.calculator import mean_variable, median_variable, count_variable
+from lib import mean_variable, median_variable, count_variable
 
 
 def test_mean():
