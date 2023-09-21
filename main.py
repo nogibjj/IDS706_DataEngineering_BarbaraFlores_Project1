@@ -8,7 +8,5 @@ def aggregate_statistics(path, variable_list):
 
 
 if __name__ == "__main__":
-    path = 'LinkedInTechJobsDataset.csv'
-    variable_list = ["Total_applicants", "Employee_count", "LinkedIn_Followers"]
-
-    aggregate_statistics(path, variable_list)
+    aggregate_statistics('LinkedInTechJobsDataset.csv', ["Total_applicants", "Employee_count", "LinkedIn_Followers"]
+)
