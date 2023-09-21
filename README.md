@@ -1,5 +1,7 @@
 [![CI](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/actions/workflows/cicd.yml)
 
+[![Format](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/actions/workflows/format.yml)
+
 IDS706_DataEngineering_BarbaraFlores_Project1
 ## 🤖 Continuous Integration using GitHub Actions of Python Data Science Project
 
