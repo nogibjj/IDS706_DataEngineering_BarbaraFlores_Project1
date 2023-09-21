@@ -8,9 +8,9 @@ In this project, we delve into the world of Continuous Integration (CI), harness
 As a learning exercise for various data engineering tools, we will conduct an analysis of a database, including the following files:
 
 - Jupyter Notebook [LinkedInTechJobs.ipynb](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/LinkedInTechJobs.ipynb) with:
-  - Cells that perform descriptive statistics using Polars or **Pandas**.
+  - Cells that perform descriptive statistics using **Pandas**.
   - Tested by using nbval plugin for pytest
-- Python Script performing the same descriptive statistics using Polars or Panda
+- Python Script [script.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/script.py) performing the same descriptive statistics using Polars or Panda
 - lib.py file that shares the common code between the script and notebook
 - Makefile with the following:
   - Run all tests (must test notebook and script and lib)
