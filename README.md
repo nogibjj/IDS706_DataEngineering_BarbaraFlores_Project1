@@ -28,5 +28,5 @@ For this asigment, we will use the [LinkedIn Tech Jobs dataset](https://www.kagg
 The [LinkedInTechJobsDataset.csv](LinkedInTechJobsDataset.csv) is a comprehensive collection of job listings and related information sourced from LinkedIn, one of the world's leading professional networking platforms. This dataset provides valuable insights into job opportunities, job market trends, and various attributes associated with job listings .
 
 
-## Demo Video
+### 🎥 Demo Video
 Here is a videdo explaining the project and demonstrating its functionality.
