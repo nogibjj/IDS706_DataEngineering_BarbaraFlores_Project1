@@ -24,4 +24,4 @@ As a learning exercise for various data engineering tools, we will conduct an an
 ### 🔍 Dataset: 
 For this asigment, we will use the [LinkedIn Tech Jobs dataset](https://www.kaggle.com/datasets/joebeachcapital/linkedin-jobs?resource=download&select=final_data.csv) 
 
-The [LinkedInTechJobsDataset.csv](LinkedInTechJobsDataset.csv) is a comprehensive collection of job listings and related information sourced from LinkedIn, one of the world's leading professional networking platforms. This dataset provides valuable insights into job opportunities, job market trends, and various attributes associated with job listings.
+The [LinkedInTechJobsDataset.csv](LinkedInTechJobsDataset.csv) is a comprehensive collection of job listings and related information sourced from LinkedIn, one of the world's leading professional networking platforms. This dataset provides valuable insights into job opportunities, job market trends, and various attributes associated with job listings .
