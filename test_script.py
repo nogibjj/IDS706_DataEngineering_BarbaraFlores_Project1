@@ -14,11 +14,11 @@ def test_github_file_existence(owner, repo, path_to_file):
         print("Status code: {response.status_code}")
 
 if __name__ == "__main__":
-    owner = "nogibjj" 
+    name = "nogibjj" 
     repo = "IDS706_DataEngineering_BarbaraFlores_Project1"  
     path_to_file1 = "Total_applicants.png"  
-    test_github_file_existence(owner, repo, path_to_file1)
+    test_github_file_existence(name, repo, path_to_file1)
     path_to_file2 = "Employee_count.png"  
-    test_github_file_existence(owner, repo, path_to_file2)
+    test_github_file_existence(name, repo, path_to_file2)
     path_to_file3 = "LinkedIn_Followers.png"
-    test_github_file_existence(owner, repo, path_to_file3)
+    test_github_file_existence(name, repo, path_to_file3)
