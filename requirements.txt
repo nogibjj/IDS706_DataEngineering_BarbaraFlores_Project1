@@ -11,9 +11,10 @@ uvicorn==0.18.3
 #datascience
 pandas==1.4.4
 matplotlib==3.5.3
-#test
+#testgi
 requests==2.31.0
 nbval==0.10.0
 nbqa==1.7.0
 ruff==0.0.290
+unitest==1.4.34
 

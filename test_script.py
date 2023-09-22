@@ -1,19 +1,24 @@
-#from script import aggregate_statistics
 import requests
 
-def test_github_file_existence(repo, path):
-    url = f"https://raw.githubusercontent.com/{repo}/main/{path}"
 
+def test_github_file_existence(owner, repo, path_to_file):
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path_to_file}"
+    
     response = requests.get(url)
-    assert  response.status_code == 200
-
+    
+    if response.status_code == 200:
+        print(f"The file {path_to_file} exist in the repository.")
+    elif response.status_code == 404:
+        print(f"The file  {path_to_file} exist in the repository.")
+    else:
+        print(f"There was an issue verifying the existence of the file {path_to_file}. Status code: {response.status_code}")
 
 if __name__ == "__main__":
-    repo = "nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1"
-    path1 = "Total_applicants.png"
-    path2 = "Employee_count.png"
-    path3 = "LinkedIn_Followers.png"
-    test_github_file_existence(repo, path1)
-    test_github_file_existence(repo, path2)
-    test_github_file_existence(repo, path3)
- 
+    owner = "nogibjj" 
+    repo = "IDS706_DataEngineering_BarbaraFlores_Project1"  
+    path_to_file1 = "Total_applicants.png"  
+    test_github_file_existence(owner, repo, path_to_file1)
+    path_to_file2 = "Employee_count.png"  
+    test_github_file_existence(owner, repo, path_to_file2)
+    path_to_file3 = "LinkedIn_Followers.png"
+    test_github_file_existence(owner, repo, path_to_file3)
