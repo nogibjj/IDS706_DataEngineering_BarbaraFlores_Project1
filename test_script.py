@@ -10,7 +10,8 @@ def test_github_file_existence(owner, repo, path_to_file):
     elif response.status_code == 404:
         print(f"The file  {path_to_file} exist in the repository.")
     else:
-        print(f"There was an issue verifying the existence of the file {path_to_file}. Status code: {response.status_code}")
+        print(f"There was an issue verifying the existence of the file {path_to_file}.")
+        print("Status code: {response.status_code}")
 
 if __name__ == "__main__":
     owner = "nogibjj" 
