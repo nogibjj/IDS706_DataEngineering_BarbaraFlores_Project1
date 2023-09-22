@@ -32,3 +32,4 @@ The [LinkedInTechJobsDataset.csv](LinkedInTechJobsDataset.csv) is a comprehensiv
 
 ### 🎥 Demo Video
 Here is a videdo explaining the project and demonstrating the functionality of the project.
+[Video](https://www.youtube.com/watch?v=VtNXbpcRzgg&ab_channel=B%C3%A1rbaraFloresR%C3%ADos)
