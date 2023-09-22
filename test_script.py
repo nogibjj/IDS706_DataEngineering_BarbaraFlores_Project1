@@ -1,7 +1,7 @@
 import requests
 
-def test_github_file_existence(owner, repo, path_to_file):
-    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{path_to_file}"
+def test_github_file_existence(name, repo, path_to_file):
+    url = f"https://api.github.com/repos/{name}/{repo}/contents/{path_to_file}"
     
     response = requests.get(url)
     
