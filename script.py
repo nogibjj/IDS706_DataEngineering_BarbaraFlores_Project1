@@ -5,7 +5,10 @@ from lib import mean_variable, median_variable, count_variable
 def aggregate_statistics(path, variable_list):
     results = dict()
     for i in variable_list:
-        results[i] = { "mean" : mean_variable(path, i) , "median" : median_variable(path, i) , "count" : count_variable(path, i) }
+        results[i] = { 
+            "mean" : mean_variable(path, i) ,
+              "median" : median_variable(path, i) , 
+              "count" : count_variable(path, i) }
     return results
 
 def hist_plot(path, variable_list):
