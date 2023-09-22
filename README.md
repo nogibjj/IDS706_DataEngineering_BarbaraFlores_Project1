@@ -33,3 +33,20 @@ The [LinkedInTechJobsDataset.csv](LinkedInTechJobsDataset.csv) is a comprehensiv
 ### 🎥 Demo Video
 Here is a videdo explaining the project and demonstrating the functionality of the project.
 [Video](https://www.youtube.com/watch?v=VtNXbpcRzgg&ab_channel=B%C3%A1rbaraFloresR%C3%ADos)
+
+### 📊 Results
+
+
+|          |  Total_applicants |   Employee_count  |LinkedIn_Followers | 
+|:---------|------------------:|------------------:|------------------:|
+| mean     | 23                | 5178              | 1401891           |
+| median   | 8                 | 5000              | 270280            |
+| count    | 811               | 811               | 811               |
+
+
+
+![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/Total_applicants.png)
+
+![Employee_count](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/Employee_count.png)
+
+![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/LinkedIn_Followers.png)
