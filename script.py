@@ -12,13 +12,14 @@ def aggregate_statistics(path, variable_list):
     return results
 
 def hist_plot(path, variable_list):
+
     df = pd.read_csv(path) 
     for variable in variable_list:
         plt.hist(df[[variable]], bins=10,)
         plt.xlabel(variable)
         plt.ylabel('frequency')
         plt.title('Histogram of {0} per job posting'.format(variable))
-        plt.savefig("{}.png".format(variable))
+        plt.savefig("output/{}.png".format(variable))
         plt.clf()
 
 
