@@ -53,8 +53,8 @@ We can see certain descriptive statistics of the variables:
 
 However, measures of central tendency often conceal the true data distribution, so we create a histogram to visualize its distribution more effectively
 
-![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/Total_applicants.png)
+![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/output/Total_applicants.png)
 
-![Employee_count](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/Employee_count.png)
+![Employee_count](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/output/Employee_count.png)
 
-![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/LinkedIn_Followers.png)
+![Total_applicants](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/output/LinkedIn_Followers.png)
