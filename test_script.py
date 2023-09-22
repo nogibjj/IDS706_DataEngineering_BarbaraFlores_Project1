@@ -13,7 +13,7 @@ def test_aggregate_statistics():
      assert results['LinkedIn_Followers']["count"] == 811
 
 
-def chek_github_file_existence():
+def test_github_file_existence():
     name = "nogibjj" 
     repo = "IDS706_DataEngineering_BarbaraFlores_Project1"  
     path_to_file = "Total_applicants.png"  
@@ -25,5 +25,5 @@ def chek_github_file_existence():
 
 
 if __name__ == "__main__":
-    chek_github_file_existence()
+    test_github_file_existence()
     test_aggregate_statistics()
