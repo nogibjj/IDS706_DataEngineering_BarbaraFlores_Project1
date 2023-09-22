@@ -4,10 +4,10 @@ from lib import mean_variable, median_variable, count_variable
 
 def aggregate_statistics(path, variable_list):
     print(" \nSome descriptive statistics: \n")
-    for i in variable_list:
-        print(f"The mean of variable {i} is {round(mean_variable(path, i))}.")
-        print(f"The median of variable {i} is {round(median_variable(path, i))}.")
-        print(f"The count of variable {i} is {round(count_variable(path, i))}.\n")
+    for variable in variable_list:
+        print(f"The mean of variable {variable} is {round(mean_variable(path, variable))}.")
+        print(f"The median of variable {variable} is {round(median_variable(path, variable))}.")
+        print(f"The count of variable {variable} is {round(count_variable(path, variable))}.\n")
 
 def hist_plot(path, variable_list):
     print("Let's see how these variables behave when graphed with a histogram.")
