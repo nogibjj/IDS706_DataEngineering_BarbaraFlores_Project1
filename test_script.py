@@ -1,6 +1,6 @@
 #from script import aggregate_statistics
 import requests
-import pandas as pd
+
 
 def test_aggregate_statistics(path):
     df = pd.read_csv(path)
