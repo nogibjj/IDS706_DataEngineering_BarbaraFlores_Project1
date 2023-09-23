@@ -8,7 +8,7 @@ test:
 	python -m pytest --nbval src/*.ipynb
 
 format:	
-	black *.py 
+	black src/*.py
 
 lint:
 	#pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
