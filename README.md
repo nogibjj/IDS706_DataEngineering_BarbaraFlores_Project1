@@ -19,8 +19,8 @@ As a learning exercise for various data engineering tools, we analyze a database
   - Formats code with Python black
   - Lints code with Ruff
   - Installs code via:  pip install -r requirements.txt
-- [test_script.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/tests/test_script.py) to test script
-- [test_lib.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/tests/test_lib.py) to test library
+- [test_script.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/test/test_script.py) to test script
+- [test_lib.py](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/test/test_lib.py) to test library
 - Pinned [requirements.txt](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/blob/main/requirements.txt)
 - [GitHub Actions](https://github.com/nogibjj/IDS706_DataEngineering_BarbaraFlores_Project1/tree/main/.github/workflows) performs all four Makefile commands with badges for each one in the README.md
 
