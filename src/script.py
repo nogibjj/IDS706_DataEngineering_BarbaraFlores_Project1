@@ -25,11 +25,11 @@ def hist_plot(path, variable_list):
 
 if __name__ == "__main__":
     results = aggregate_statistics(
-        'LinkedInTechJobsDataset.csv', 
+        'data/LinkedInTechJobsDataset.csv', 
         ["Total_applicants", "Employee_count", "LinkedIn_Followers"]
         )
     for key, value in results.items():
         print (f"\n{key}: {value}")
-    hist_plot("LinkedInTechJobsDataset.csv", 
+    hist_plot("data/LinkedInTechJobsDataset.csv", 
         ["Total_applicants", "Employee_count", "LinkedIn_Followers"]
         )
