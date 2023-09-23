@@ -4,15 +4,15 @@ install:
 
 test:
 	python -m pytest -vv --cov=main --cov=lib test_*.py
-	#python -m pytest --nbval-lax *.ipynb
-	python -m pytest --nbval *.ipynb
+	#python -m pytest --nbval-lax src/*.ipynb
+	python -m pytest --nbval src/*.ipynb
 
 format:	
 	black *.py 
 
 lint:
 	#pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
-	nbqa ruff *.ipynb
+	nbqa ruff src/*.ipynb
 	ruff check *.py
 
 container-lint:
